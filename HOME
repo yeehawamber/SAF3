@@ -1,6 +1,861 @@
-echo "# SAF3" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/yeehawamber/SAF3.git
-git push -u origin master
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: Web_1920___1;
+	}
+	#Web_1920___1 * {
+		margin: 0;
+		padding: 0;
+	}
+	#Web_1920___1 {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920___1;
+		--web-enable-deep-linking: true;
+	}
+	#Component_1___1 {
+		opacity: 1;
+		position: absolute;
+		width: 217px;
+		height: 52px;
+		left: 171px;
+		top: 388px;
+		overflow: visible;
+	}
+	#Rectangle_8 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_8 {
+		position: absolute;
+		overflow: visible;
+		width: 217px;
+		height: 52px;
+		left: 0px;
+		top: 0px;
+	}
+	#Repeat_Grid_2 {
+		opacity: 1;
+		position: absolute;
+		width: 3528px;
+		height: 975px;
+		left: 17px;
+		top: 30px;
+		overflow: hidden;
+	}
+	#Repeat_Grid_2_0 {
+		opacity: 1;
+		position: absolute;
+		width: 2037px;
+		height: 975px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		opacity: 1;
+		fill: rgba(227,227,227,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 1885px;
+		height: 355px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_2 {
+		opacity: 1;
+		fill: rgba(207,255,75,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 1885px;
+		height: 74px;
+		left: 0px;
+		top: 355px;
+	}
+	#WHAT_IS_IT_ {
+		opacity: 1;
+		position: absolute;
+		left: 178px;
+		top: 370px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 293px;
+		height: 39px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(112,112,112,1);
+	}
+	#HOW_DOES_IT_WORK_ {
+		opacity: 1;
+		position: absolute;
+		left: 741px;
+		top: 373px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 307px;
+		height: 39px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(112,112,112,1);
+	}
+	#WHERE_CAN_I_GET_ONE_ {
+		opacity: 1;
+		position: absolute;
+		left: 1318px;
+		top: 373px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 355px;
+		height: 72px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(112,112,112,1);
+	}
+	#Rectangle_3 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 404px;
+		height: 317px;
+		left: 22px;
+		top: 22px;
+	}
+	#Polygon_1 {
+		opacity: 1;
+		fill: rgba(237,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Polygon_1 {
+		transform: rotate(91deg);
+		overflow: visible;
+		position: absolute;
+		top: 104.515px;
+		left: 181.435px;
+		width: 116.129px;
+		height: 124.971px;
+	}
+	#Rectangle_4 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_4 {
+		position: absolute;
+		overflow: visible;
+		width: 404px;
+		height: 317px;
+		left: 514px;
+		top: 20px;
+	}
+	#Polygon_2 {
+		opacity: 1;
+		fill: rgba(237,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Polygon_2 {
+		transform: rotate(91deg);
+		overflow: visible;
+		position: absolute;
+		top: 102.515px;
+		left: 673.435px;
+		width: 116.129px;
+		height: 124.971px;
+	}
+	#Rectangle_5 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 404px;
+		height: 317px;
+		left: 1006px;
+		top: 19px;
+	}
+	#Polygon_3 {
+		opacity: 1;
+		fill: rgba(237,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Polygon_3 {
+		transform: rotate(91deg);
+		overflow: visible;
+		position: absolute;
+		top: 101.515px;
+		left: 1165.435px;
+		width: 116.129px;
+		height: 124.971px;
+	}
+	#Rectangle_6 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 404px;
+		height: 317px;
+		left: 1481px;
+		top: 19px;
+	}
+	#Polygon_4 {
+		opacity: 1;
+		fill: rgba(237,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Polygon_4 {
+		transform: rotate(91deg);
+		overflow: visible;
+		position: absolute;
+		top: 101.515px;
+		left: 1640.435px;
+		width: 116.129px;
+		height: 124.971px;
+	}
+	#GIF_OF_FOOTAGE_FROM_THE_CAMERA {
+		opacity: 1;
+		position: absolute;
+		left: 462px;
+		top: 178px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 1576px;
+		height: 92px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(112,112,112,1);
+	}
+	#YOU_RE_SAF3__NOW_ {
+		opacity: 1;
+		position: absolute;
+		left: 768px;
+		top: 270px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 598px;
+		height: 45px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(112,112,112,1);
+	}
+	#Repeat_Grid_1 {
+		opacity: 1;
+		position: absolute;
+		width: 1885px;
+		height: 509px;
+		left: 0px;
+		top: 466px;
+		overflow: hidden;
+	}
+	#Repeat_Grid_1_0 {
+		opacity: 1;
+		position: absolute;
+		width: 1885px;
+		height: 509px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_7 {
+		opacity: 1;
+		fill: rgba(235,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 1885px;
+		height: 509px;
+		left: 0px;
+		top: 0px;
+	}
+	#Image_1 {
+		opacity: 0.805;
+		fill: url(#Image_1_A0_Rectangle_10_pattern);
+	}
+	.Image_1 {
+		position: absolute;
+		overflow: visible;
+		width: 359.531px;
+		height: 359.857px;
+		left: 84px;
+		top: 577.469px;
+	}
+	#Image_2 {
+		opacity: 0.805;
+		fill: url(#Image_2_A0_Rectangle_12_pattern);
+	}
+	.Image_2 {
+		position: absolute;
+		overflow: visible;
+		width: 359.531px;
+		height: 359.857px;
+		left: 1514.469px;
+		top: 577.469px;
+	}
+	#Image_3 {
+		opacity: 0.805;
+		fill: url(#Image_3_A0_Rectangle_14_pattern);
+	}
+	.Image_3 {
+		position: absolute;
+		overflow: visible;
+		width: 427px;
+		height: 427px;
+		left: 1015px;
+		top: 510px;
+	}
+	#Image_4 {
+		opacity: 0.805;
+		fill: url(#Image_4_A0_Rectangle_16_pattern);
+	}
+	.Image_4 {
+		position: absolute;
+		overflow: visible;
+		width: 427px;
+		height: 427px;
+		left: 516px;
+		top: 510px;
+	}
+	#Repeat_Grid_2_1 {
+		opacity: 1;
+		position: absolute;
+		width: 2037px;
+		height: 975px;
+		left: 2057px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_1_A0_Rectangle_17 {
+		opacity: 1;
+		fill: rgba(227,227,227,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1_A0_Rectangle_17 {
+		position: absolute;
+		overflow: visible;
+		width: 1885px;
+		height: 355px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_2_A0_Rectangle_18 {
+		opacity: 1;
+		fill: rgba(207,255,75,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_2_A0_Rectangle_18 {
+		position: absolute;
+		overflow: visible;
+		width: 1885px;
+		height: 74px;
+		left: 0px;
+		top: 355px;
+	}
+	#WHAT_IS_IT__A0_Text_6 {
+		opacity: 1;
+		position: absolute;
+		left: 178px;
+		top: 370px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 293px;
+		height: 39px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(112,112,112,1);
+	}
+	#HOW_DOES_IT_WORK__A0_Text_7 {
+		opacity: 1;
+		position: absolute;
+		left: 741px;
+		top: 373px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 307px;
+		height: 39px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(112,112,112,1);
+	}
+	#WHERE_CAN_I_GET_ONE__A0_Text_8 {
+		opacity: 1;
+		position: absolute;
+		left: 1318px;
+		top: 373px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 355px;
+		height: 72px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(112,112,112,1);
+	}
+	#Rectangle_3_A0_Rectangle_19 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_3_A0_Rectangle_19 {
+		position: absolute;
+		overflow: visible;
+		width: 404px;
+		height: 317px;
+		left: 22px;
+		top: 22px;
+	}
+	#Polygon_1_A0_Polygon_5 {
+		opacity: 1;
+		fill: rgba(237,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Polygon_1_A0_Polygon_5 {
+		transform: rotate(91deg);
+		overflow: visible;
+		position: absolute;
+		top: 104.515px;
+		left: 181.435px;
+		width: 116.129px;
+		height: 124.971px;
+	}
+	#Rectangle_4_A0_Rectangle_20 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_4_A0_Rectangle_20 {
+		position: absolute;
+		overflow: visible;
+		width: 404px;
+		height: 317px;
+		left: 514px;
+		top: 20px;
+	}
+	#Polygon_2_A0_Polygon_6 {
+		opacity: 1;
+		fill: rgba(237,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Polygon_2_A0_Polygon_6 {
+		transform: rotate(91deg);
+		overflow: visible;
+		position: absolute;
+		top: 102.515px;
+		left: 673.435px;
+		width: 116.129px;
+		height: 124.971px;
+	}
+	#Rectangle_5_A0_Rectangle_21 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_5_A0_Rectangle_21 {
+		position: absolute;
+		overflow: visible;
+		width: 404px;
+		height: 317px;
+		left: 1006px;
+		top: 19px;
+	}
+	#Polygon_3_A0_Polygon_7 {
+		opacity: 1;
+		fill: rgba(237,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Polygon_3_A0_Polygon_7 {
+		transform: rotate(91deg);
+		overflow: visible;
+		position: absolute;
+		top: 101.515px;
+		left: 1165.435px;
+		width: 116.129px;
+		height: 124.971px;
+	}
+	#Rectangle_6_A0_Rectangle_22 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_6_A0_Rectangle_22 {
+		position: absolute;
+		overflow: visible;
+		width: 404px;
+		height: 317px;
+		left: 1481px;
+		top: 19px;
+	}
+	#Polygon_4_A0_Polygon_8 {
+		opacity: 1;
+		fill: rgba(237,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Polygon_4_A0_Polygon_8 {
+		transform: rotate(91deg);
+		overflow: visible;
+		position: absolute;
+		top: 101.515px;
+		left: 1640.435px;
+		width: 116.129px;
+		height: 124.971px;
+	}
+	#GIF_OF_FOOTAGE_FROM_THE_CAMERA_A0_Text_9 {
+		opacity: 1;
+		position: absolute;
+		left: 462px;
+		top: 178px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 1576px;
+		height: 92px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(112,112,112,1);
+	}
+	#YOU_RE_SAF3__NOW__A0_Text_10 {
+		opacity: 1;
+		position: absolute;
+		left: 768px;
+		top: 270px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 598px;
+		height: 45px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(112,112,112,1);
+	}
+	#Repeat_Grid_1_A0_RepeatGrid_3 {
+		opacity: 1;
+		position: absolute;
+		width: 1885px;
+		height: 509px;
+		left: 0px;
+		top: 466px;
+		overflow: hidden;
+	}
+	#Repeat_Grid_1_A0_RepeatGrid_3_0 {
+		opacity: 1;
+		position: absolute;
+		width: 1885px;
+		height: 509px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_7_A0_Rectangle_23 {
+		opacity: 1;
+		fill: rgba(235,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_7_A0_Rectangle_23 {
+		position: absolute;
+		overflow: visible;
+		width: 1885px;
+		height: 509px;
+		left: 0px;
+		top: 0px;
+	}
+	#Image_1_A0_Rectangle_24 {
+		opacity: 0.805;
+		fill: url(#Image_1_A0_Rectangle_25_pattern);
+	}
+	.Image_1_A0_Rectangle_24 {
+		position: absolute;
+		overflow: visible;
+		width: 359.531px;
+		height: 359.857px;
+		left: 84px;
+		top: 577.469px;
+	}
+	#Image_2_A0_Rectangle_26 {
+		opacity: 0.805;
+		fill: url(#Image_2_A0_Rectangle_27_pattern);
+	}
+	.Image_2_A0_Rectangle_26 {
+		position: absolute;
+		overflow: visible;
+		width: 359.531px;
+		height: 359.857px;
+		left: 1514.469px;
+		top: 577.469px;
+	}
+	#Image_3_A0_Rectangle_28 {
+		opacity: 0.805;
+		fill: url(#Image_3_A0_Rectangle_29_pattern);
+	}
+	.Image_3_A0_Rectangle_28 {
+		position: absolute;
+		overflow: visible;
+		width: 427px;
+		height: 427px;
+		left: 1015px;
+		top: 510px;
+	}
+	#Image_4_A0_Rectangle_30 {
+		opacity: 0.805;
+		fill: url(#Image_4_A0_Rectangle_31_pattern);
+	}
+	.Image_4_A0_Rectangle_30 {
+		position: absolute;
+		overflow: visible;
+		width: 427px;
+		height: 427px;
+		left: 516px;
+		top: 510px;
+	}
+
+
+Warnings:
+1. Border support: Border position "inside" on "Rectangle_8"  is not supported
+2. Border support: Border position "inside" on "Rectangle_1"  is not supported
+3. Border support: Border position "inside" on "Rectangle_2"  is not supported
+4. Border support: Border position "inside" on "Rectangle_3"  is not supported
+5. Border support: Border position "inside" on "Polygon_1"  is not supported
+6. Element type not found: Exporter for element "Polygon" named "Polygon 1" is not found. Exporting as path
+7. Border support: Border position "inside" on "Rectangle_4"  is not supported
+8. Border support: Border position "inside" on "Polygon_2"  is not supported
+9. Element type not found: Exporter for element "Polygon" named "Polygon 2" is not found. Exporting as path
+10. Border support: Border position "inside" on "Rectangle_5"  is not supported
+11. Border support: Border position "inside" on "Polygon_3"  is not supported
+12. Element type not found: Exporter for element "Polygon" named "Polygon 3" is not found. Exporting as path
+13. Border support: Border position "inside" on "Rectangle_6"  is not supported
+14. Border support: Border position "inside" on "Polygon_4"  is not supported
+15. Element type not found: Exporter for element "Polygon" named "Polygon 4" is not found. Exporting as path
+16. ID truncated: The auto generated ID starting with 'GIF_OF_FOOTAGE_FROM_' was truncated
+17. Border support: Border position "inside" on "Rectangle_7"  is not supported
+18. Border support: Border position "inside" on "Rectangle_1_A0_Rectangle_17"  is not supported
+19. Border support: Border position "inside" on "Rectangle_2_A0_Rectangle_18"  is not supported
+20. Border support: Border position "inside" on "Rectangle_3_A0_Rectangle_19"  is not supported
+21. Border support: Border position "inside" on "Polygon_1_A0_Polygon_5"  is not supported
+22. Element type not found: Exporter for element "Polygon" named "Polygon 1" is not found. Exporting as path
+23. Border support: Border position "inside" on "Rectangle_4_A0_Rectangle_20"  is not supported
+24. Border support: Border position "inside" on "Polygon_2_A0_Polygon_6"  is not supported
+25. Element type not found: Exporter for element "Polygon" named "Polygon 2" is not found. Exporting as path
+26. Border support: Border position "inside" on "Rectangle_5_A0_Rectangle_21"  is not supported
+27. Border support: Border position "inside" on "Polygon_3_A0_Polygon_7"  is not supported
+28. Element type not found: Exporter for element "Polygon" named "Polygon 3" is not found. Exporting as path
+29. Border support: Border position "inside" on "Rectangle_6_A0_Rectangle_22"  is not supported
+30. Border support: Border position "inside" on "Polygon_4_A0_Polygon_8"  is not supported
+31. Element type not found: Exporter for element "Polygon" named "Polygon 4" is not found. Exporting as path
+32. ID truncated: The auto generated ID starting with 'GIF_OF_FOOTAGE_FROM_' was truncated
+33. Border support: Border position "inside" on "Rectangle_7_A0_Rectangle_23"  is not supported
+34. Duplicate ID: The Rectangle named, "Image 1" on artboard, "Web 1920 – 1" was renamed to, "Image_1_A0_Rectangle_10"
+35. Duplicate ID: The Rectangle named, "Image 2" on artboard, "Web 1920 – 1" was renamed to, "Image_2_A0_Rectangle_12"
+36. Duplicate ID: The Rectangle named, "Image 3" on artboard, "Web 1920 – 1" was renamed to, "Image_3_A0_Rectangle_14"
+37. Duplicate ID: The Rectangle named, "Image 4" on artboard, "Web 1920 – 1" was renamed to, "Image_4_A0_Rectangle_16"
+38. Duplicate ID: The Rectangle named, "Rectangle 1" on artboard, "Web 1920 – 1" was renamed to, "Rectangle_1_A0_Rectangle_17"
+39. Duplicate ID: The Rectangle named, "Rectangle 2" on artboard, "Web 1920 – 1" was renamed to, "Rectangle_2_A0_Rectangle_18"
+40. Duplicate ID: The Text named, "WHAT IS IT?" on artboard, "Web 1920 – 1" was renamed to, "WHAT_IS_IT__A0_Text_6"
+41. Duplicate ID: The Text named, "HOW DOES IT WORK?" on artboard, "Web 1920 – 1" was renamed to, "HOW_DOES_IT_WORK__A0_Text_7"
+42. Duplicate ID: The Text named, "WHERE CAN I GET ONE?" on artboard, "Web 1920 – 1" was renamed to, "WHERE_CAN_I_GET_ONE__A0_Text_8"
+43. Duplicate ID: The Rectangle named, "Rectangle 3" on artboard, "Web 1920 – 1" was renamed to, "Rectangle_3_A0_Rectangle_19"
+44. Duplicate ID: The Polygon named, "Polygon 1" on artboard, "Web 1920 – 1" was renamed to, "Polygon_1_A0_Polygon_5"
+45. Duplicate ID: The Rectangle named, "Rectangle 4" on artboard, "Web 1920 – 1" was renamed to, "Rectangle_4_A0_Rectangle_20"
+46. Duplicate ID: The Polygon named, "Polygon 2" on artboard, "Web 1920 – 1" was renamed to, "Polygon_2_A0_Polygon_6"
+47. Duplicate ID: The Rectangle named, "Rectangle 5" on artboard, "Web 1920 – 1" was renamed to, "Rectangle_5_A0_Rectangle_21"
+48. Duplicate ID: The Polygon named, "Polygon 3" on artboard, "Web 1920 – 1" was renamed to, "Polygon_3_A0_Polygon_7"
+49. Duplicate ID: The Rectangle named, "Rectangle 6" on artboard, "Web 1920 – 1" was renamed to, "Rectangle_6_A0_Rectangle_22"
+50. Duplicate ID: The Polygon named, "Polygon 4" on artboard, "Web 1920 – 1" was renamed to, "Polygon_4_A0_Polygon_8"
+51. Duplicate ID: The Text named, "GIF OF FOOTAGE FROM THE CAMERA - E.G SOMEONE BREAK" on artboard, "Web 1920 – 1" was renamed to, "GIF_OF_FOOTAGE_FROM_THE_CAMERA_A0_Text_9"
+52. Duplicate ID: The Text named, "YOU’RE SAF3, NOW." on artboard, "Web 1920 – 1" was renamed to, "YOU_RE_SAF3__NOW__A0_Text_10"
+53. Duplicate ID: The RepeatGrid named, "Repeat Grid 1" on artboard, "Web 1920 – 1" was renamed to, "Repeat_Grid_1_A0_RepeatGrid_3"
+54. Duplicate ID: The Rectangle named, "Rectangle 7" on artboard, "Web 1920 – 1" was renamed to, "Rectangle_7_A0_Rectangle_23"
+55. Duplicate ID: The Rectangle named, "Image 1" on artboard, "Web 1920 – 1" was renamed to, "Image_1_A0_Rectangle_24"
+56. Duplicate ID: The Rectangle named, "Image 1" on artboard, "Web 1920 – 1" was renamed to, "Image_1_A0_Rectangle_25"
+57. Duplicate ID: The Rectangle named, "Image 2" on artboard, "Web 1920 – 1" was renamed to, "Image_2_A0_Rectangle_26"
+58. Duplicate ID: The Rectangle named, "Image 2" on artboard, "Web 1920 – 1" was renamed to, "Image_2_A0_Rectangle_27"
+59. Duplicate ID: The Rectangle named, "Image 3" on artboard, "Web 1920 – 1" was renamed to, "Image_3_A0_Rectangle_28"
+60. Duplicate ID: The Rectangle named, "Image 3" on artboard, "Web 1920 – 1" was renamed to, "Image_3_A0_Rectangle_29"
+61. Duplicate ID: The Rectangle named, "Image 4" on artboard, "Web 1920 – 1" was renamed to, "Image_4_A0_Rectangle_30"
+62. Duplicate ID: The Rectangle named, "Image 4" on artboard, "Web 1920 – 1" was renamed to, "Image_4_A0_Rectangle_31"
